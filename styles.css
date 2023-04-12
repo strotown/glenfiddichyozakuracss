@@ -12,7 +12,19 @@ header {
   height: 100px; /* adjust the height as needed */
 }
 
+header #powered_by_container {
+  position: relative;
+}
+
+header #powered_by_container a.animated.bounceIn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 header .brand.animated.bounceIn {
   margin-top: 0;
   max-height: 100%; /* ensure the image fits within the header */
 }
+
